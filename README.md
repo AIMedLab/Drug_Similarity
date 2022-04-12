@@ -8,5 +8,5 @@ Figure1: Overall framework for the drug similarity computing.
 ## 3. Usage
 
 ### ATC code similarity 
-We define the *k*th level ATC code based similarity *S~k* of drug *a* and drug *b* as      
+We define the *k*th level ATC code based similarity *S~k~* of drug *a* and drug *b* as      
 ![atc_1](https://latex.codecogs.com/svg.image?S_k(a,b)=\frac{ATC_k(a)\cap&space;ATC_k(b)}{ATC_k(a)\cup&space;ATC_k(b)})
