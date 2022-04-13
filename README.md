@@ -4,6 +4,8 @@
 This repository contains implementation code of different drug similarities computing. Currently, we have seven drug similarities include chemical, protein sequence, enzyme, indication, pathway, ATC code and GO terms similarities of 1787 approved drugs.
 
 ## 2. Pipeline
+
+<img src="img/pipeline.png" width=80%>
 Figure1: Overall framework for the drug similarity computing.
 ## 3. Usage
 All the drug information is from Drugbank dataset. 
