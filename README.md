@@ -20,6 +20,7 @@ where *n* represents the five levels of ATC codes and ranges from *1* to *5*.
 
 Get ATC similarity matrix, the output is a .csv file that stores the similarity matrix.   
 ```sh
+    $ cd ATC_similarity
     $ python ATC_similarity.py
 ```
 
@@ -28,6 +29,7 @@ We constructed chemical structure features based on Pubchem fingerprint and the 
 
 Get chemical similarity matrix, the output is a .csv file that stores the similarity matrix.   
 ```sh
+    $ cd chemical_similarity
     $ python chemical_similarity.py
 ```
 
@@ -36,6 +38,7 @@ The enzymes vector is represented by a binary matrix in which elements refer to 
 
 Get the TFIDF vector of drugs. 
 ```sh
+    $ cd enzyme_similarity
     $ python get_enzyme_TFIDF.py
 ```
 Get enzyme similarity matrix, the output is a .csv file that stores the similarity matrix.   
@@ -49,6 +52,7 @@ Same as the Enzyme similarity, we compute the Cosine similarity of TFIDF of each
 
 Get the TFIDF vector of drugs. 
 ```sh
+    $ cd indication_similarity
     $ python get_indication_TFIDF.py
 ```
 Get enzyme similarity matrix, the output is a .csv file that stores the similarity matrix.   
@@ -62,6 +66,7 @@ Same as the indication similarity, we compute the Cosine similarity of TFIDF of 
 
 Get the TFIDF vector of drugs. 
 ```sh
+    $ cd pathway_similarity
     $ python get_pathway_TFIDF.py
 ```
 Get enzyme similarity matrix, the output is a .csv file that stores the similarity matrix.   
@@ -75,6 +80,7 @@ We use package [pygosemsim](https://github.com/mojaie/pygosemsim). We choose the
 
 get the drug similarity .txt file for each drug and then process the .txt file to get the similarity matrix.
 ```sh
+    $ cd go_similarity
     $ sbatch run.sh #get the .txt file
     $ python txt_process.py #get the similarity matrix
 ```
@@ -85,6 +91,7 @@ Due to the long time for the sequence similarity computing, we use package the g
 
 get the drug similarity .txt file for each drug and then process the .txt file to get the similarity matrix.
 ```sh
+    $ cd seqence_similarity
     $ sbatch run.sh #get the .txt file
     $ python txt_process.py #get the similarity matrix
 ```
