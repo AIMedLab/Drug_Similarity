@@ -5,10 +5,10 @@ This repository contains implementation code of different drug similarities comp
 
 ## 2. Pipeline
 
-<img src="img/pipeline.png" width=80%>
+![alt text](pipeline.png "Pipeline")
 Figure1: Overall framework for the drug similarity computing.
 ## 3. Usage
-All the drug information is from Drugbank dataset. 
+All the drug information is from [Drugbank](https://www.drugbank.ca) dataset. 
 ### ATC Code Similarity 
 We define the *k*th level ATC code based similarity *S_k* of drug *a* and drug *b* as      
 ![atc_1](https://latex.codecogs.com/svg.image?S_k(a,b)=\frac{ATC_k(a)\cap&space;ATC_k(b)}{ATC_k(a)\cup&space;ATC_k(b)}). 
