@@ -86,3 +86,7 @@ get the drug similarity .txt file for each drug and then process the .txt file t
     $ sbatch run.sh #get the .txt file
     $ python txt_process.py #get the similarity matrix
 ```
+
+## Results
+
+All the drug similarity matrices can be found in this Google Box.
