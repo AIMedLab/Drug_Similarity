@@ -5,7 +5,7 @@ This repository contains implementation code of different drug similarities comp
 
 ## 2. Pipeline
 
-![alt text](docs/fig1.png "Pipeline")
+![alt text](pipeline.png "Pipeline")
 Figure1: Overall framework for the drug similarity computing.
 ## 3. Usage
 All the drug information is from [Drugbank](https://www.drugbank.ca) dataset. 
