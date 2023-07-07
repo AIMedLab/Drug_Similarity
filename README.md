@@ -98,4 +98,4 @@ get the drug similarity .txt file for each drug and then process the .txt file t
 
 ## Results
 
-All the drug similarity matrices can be found in this Google Box.
+All the drug similarity matrices can be found in this shared [OneDrive folder](https://buckeyemailosu-my.sharepoint.com/:f:/g/personal/zhang_10631_osu_edu/EtNaiTLV3OZBobXV5MHwMWEBU6tfJ-2eOvt6-4JmPIJkOw?e=ngo7WC).
